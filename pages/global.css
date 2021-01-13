@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+
+.gits{
+    margin-top: -10px;
+    margin-left: -10px;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    width: 70px;
+    height: 70px;
+    border-radius: 0% 0% 100% 0%;
+    font-size: 40px;
+    color: black;
+    transition: filter 0.5s;
+}
+
+.gits a{
+    background: none;
+    border: none;
+    font-size: 40px;
+    color: black;
+}
+
+.gits:hover{
+    filter: invert(100%);
+}
+
+.sp{
+    font-size: 10px;
+}
+
+.Intro h1 {
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+    color: rgb(78, 67, 67);
+}
+.Intro {
+    text-align: center;
+    padding-top: 10%;
+    font-family: 'Yusei Magic', sans-serif;
+}
+.bar{
+    margin: 2% 50%;
+    border-left: 2px solid rgb(38, 41, 38);
+    height: 30px;
+}
+.Intro img{
+    border: 5px dashed whitesmoke;
+    border-radius: 50%;
+}
+.app   {
+    padding-bottom: 5%;
+}
+.abtme{
+    padding-top: 10%;
+    font-family: 'Yeon Sung', cursive;
+    text-align: center;
+}
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);  
+}
+.logos ul li{
+    display:inline-block;
+    font-size: 50px;
+}
+
+.footer{
+    color: white;
+    font-family: 'Yeon Sung', cursive;
+    padding: 1%;
+    position: absolute;
+    cursor: default;
+}
+
+@media screen and (max-width:400px){
+    .About{
+        padding-top: 100%;
+    }
+
+}
