@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+@import "~react-image-gallery/styles/css/image-gallery.css";
 
 .gits{
     margin-top: -10px;
@@ -14,6 +15,7 @@
     font-size: 40px;
     color: black;
     transition: filter 0.5s;
+    z-index: 9999;
 }
 
 .gits a{
@@ -73,6 +75,16 @@ body{
     padding: 1%;
     position: absolute;
     cursor: default;
+}
+
+.welcome{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    z-index: 10000;
+    position: absolute;
+    margin: -0.8% 0% 0% -1%;
 }
 
 @media screen and (max-width:400px){
