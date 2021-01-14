@@ -41,7 +41,6 @@ export default function Home() {
       <link rel="icon" href='https://images.squarespace-cdn.com/content/5a176be1cf81e02d03c02976/1514448654176-NZMWH4TU1NJ0H89AK0QM/16favi.png?format=100w&content-type=image%2Fpng'/>
       <title>Andreas Yozef</title>
     </head>
-    <div className="welcome"><span>Andreas Yozef</span></div>
     <div>
       <a className="gits" href="https://github.com/andreasyny/"><FaGithub/></a></div>
     <div className="Intro">
